@@ -1,0 +1,86 @@
+body{
+    border:solid 1px;
+    width: 1300px;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+aside{
+    background-image: url("tun1.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:200px;
+    padding:10px;
+    margin:1%;
+    box-sizing: border-box;
+    width:26%;
+    float:left;
+    box-shadow: 5px 5px rgb(0,0,0,50%);
+    color:rgb(238, 238, 245) ;
+}
+footer{
+    height: 200px;
+    border:solid 1px;
+    padding:10px;
+    margin:1%;
+    clear: both;
+    box-shadow: 5px 5px rgb(0,0,0,50%);
+    color: darkslategrey;
+}
+.mb{
+    height: 190px;
+    width: 200px;
+    flex-direction: row;
+    margin-left: 90px;
+}
+header{
+    background-image: url("Tunisie.jfif");
+    background-repeat: no-repeat;
+    height:100px;
+    padding:10px;
+    margin:1%;
+    
+
+}
+nav{
+    height:50px;
+    border:solid 1px;
+    padding:10px;
+    margin:1%;
+    box-shadow: 5px 5px rgb(0,0,0,50%);
+    text-align: right;
+    color: darkred;
+
+}
+main{
+    height:200px;
+    border:solid 1px;
+    padding:10px;
+    margin:1%;
+    box-sizing: border-box;
+    width:70%;
+    float: right;
+    box-shadow: 5px 5px rgb(0,0,0,50%);
+    color: darkslategray;
+}
+.navi{
+    list-style: none;
+    display: inline;
+    margin:20px;
+    font-size: x-large;
+    
+}
+#title{
+    text-align:center;
+    font-size:xx-large;
+    color: red
+    ;
+}
+a{
+    font-size: x-large;
+    text-align: center;
+    color: red;
+}
+a:hover{
+    color: blueviolet;
+}
